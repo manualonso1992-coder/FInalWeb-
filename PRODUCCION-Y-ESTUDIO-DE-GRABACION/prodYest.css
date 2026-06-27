@@ -4,49 +4,31 @@ body {
 }
 
 main{
+   
     width: auto;
     margin: auto;
 }
 
-.contenedor-imgs{
-display: flex;            
-    flex-direction: row;       
-    justify-content: center;   
-    gap: 20px;                 
-    margin-bottom: 3%;
+.contenedor{
+    display: flex;
+}
+
+.ubiImag, .ubiParrafos{
+display: flex;
+flex-direction: column;
+
 
 }
 
-.imagen-produccion-supra-charger{
-      background-image: url('./IMAGENES-PRODUCCION-Y-ESTUDIO-DE-GRABACION/imagen-vuelco-charger.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
-    filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0.366));
 
+
+.los-civic, .toretoOcconor, .charger-engine{
+
+    width: 700px;
+    height: 400px;
+    padding: 20px;
 }
 
-        .imagen-vuelco-charger{
-            background-image: url('./IMAGENES-PRODUCCION-Y-ESTUDIO-DE-GRABACION/imagen-produccion-supra-charger.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
-    filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0.366));
-
-        }
-
-        .imagen-dvd{
-
-              background-image: url('./IMAGENES-PRODUCCION-Y-ESTUDIO-DE-GRABACION/imagen-dvd.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 305px;
-    filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0.366));
-
-        }
 
 h1{
     font-weight: 800; font-style: italic; text-transform: uppercase;
@@ -60,16 +42,11 @@ h1{
 h2{
     color:rgb(235, 235, 235);
     text-align: center;
-   
-   
 }
 
-.containerImagProdyEst {
-    border-radius: 15px;
-    background-color: rgba();
-    box-shadow: 0 0 40px rgb(235, 235, 235);
 
-}
+
+
 
 p {
     color: rgb(255, 255, 255);
