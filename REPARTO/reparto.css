@@ -1,73 +1,22 @@
-* {
-    font-family: 'Barlow', sans-serif;
-    font-size: 20px;
-}
-
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(71, 71, 71, 0.74)), url(./IMAGENES-REPARTO/imagen-fondo-reparto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
 }
 
- nav {
-    display: flex;
-    justify-content: center;    
-}
- 
-
-
-  .btn-menu {
-    display: inline-block; 
-    padding: 12px 24px;
-    margin: 5px;
-    background-color: rgba(219, 133, 52, 0); 
-    color: rgb(255, 255, 255);            
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    border-radius: 6px;       
-    transition: all 0.6s ease-in-out;
-}
-
-.btn-menu:hover {
-    background-color: rgba(255, 254, 254, 0.355); 
-    cursor: pointer;           
-    transform: scale(60%);
+main {
+ width: auto;
+    margin: auto;
 
 }
 
-header {
-   position: sticky;
-   top: 0;
-
-
- }
-
-h1 {
+h1{
     font-weight: 800; font-style: italic; text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.749);
+    color: rgb(235, 235, 235);
     font-size: 60px;
     padding: 5px;
     text-align: center;
-   
-    
 
 }
-
-h2{
-    font-weight: 800; font-style: italic; text-transform: uppercase;
-     color:rgba(255, 255, 255, 0.749) ;
-     font-size: 40px;
-    padding: 5px;
-    text-align: center;
-    
-    
-    
-}
-
 
 h3 {
     font-weight: 800; font-style: italic; text-transform: uppercase;
@@ -79,9 +28,7 @@ h3 {
     color: rgb(255, 255, 255);
     text-shadow: 1px 2px 0.2px rgb(4, 4, 4);
 
-
 }
-
 
 .contenedorImagen {
     display: flex;
@@ -90,12 +37,10 @@ h3 {
     margin-left: 5%;
     padding-left: 10px;
     border-radius: 15px;
-    background-color: rgba();
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.252);
 
 
 }
-
 
 p {
     text-shadow: 1px 1px black;
@@ -108,41 +53,3 @@ p {
 
 
 
-.mis-redes-derecha {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-}
-
-
-.link-red {
-    display: block;
-    transition: transform 0.2s;
-}
-
-
-.link-red img {
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-    box-shadow: 1px 2px 2px #ffffff;
-}
-
-.link-red:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-}
-  
-   
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin-top: 40px;
-}
