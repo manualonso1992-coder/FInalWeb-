@@ -1,0 +1,119 @@
+
+* {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(163, 177, 226, 0.452), rgba(9, 173, 255, 0.323)), url(./IMAGENES-CONTACTO/fondo-contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.btn-menu {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 5px;
+    background-color: rgba(219, 133, 52, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn-menu:hover {
+    background-color: rgba(255, 254, 254, 0.355);
+    cursor: pointer;
+    transform: scale(60%);
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+.mis-redes-derecha {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 12px;
+    z-index: 9999;
+}
+
+.link-red {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    transition: all 0.6s ease-in-out;
+}
+
+
+.link-red img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 1px 2px 2px #ffffff;
+}
+
+
+.link-red:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 800; font-style: italic; text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+
+fieldset {
+    border: 3px solid #4444489a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #61a6fab7;
+    background-image: linear-gradient(rgb(163, 177, 226), rgb(2, 43, 64));
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+
+label input, label textarea{
+width:500px;
+padding: 5px ;
+
+}
+div {
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 40px;
+}
