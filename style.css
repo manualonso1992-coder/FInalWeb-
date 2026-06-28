@@ -50,24 +50,10 @@ header {
    top: 0;
 
 
- }
-
- .homeVideo{
-    display: flex;
-    justify-content:left;
-    
 }
 
-iframe{
-border: 1px white solid;
-border-radius: 20px;
-width: 500px;
-height: 300px;
-box-shadow: 1px 1px 50px rgba(196, 3, 255, 0.432);
-padding: 50px;
 
 
-}
 
 
 
