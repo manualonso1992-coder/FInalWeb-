@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     color: rgb(77, 209, 253);
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     padding: 5px;
     text-align: center;
     padding-top: 50px;
@@ -41,18 +41,5 @@ span {
 
 }
 
-.contenedorImagen {
 
-    width: 85%;
-    max-width: 850px;
-    height: 450px;
-    margin: 40px auto;
-    background-image: url('./IMAGENES-CURIOSIDADES-Y-PREMIOS/imagen-casa.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(180, 241, 253, 0.464);
-    
-}
 
