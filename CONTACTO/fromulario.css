@@ -45,30 +45,4 @@ main{
  }
 
 
- .mis-redes-derecha {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    
-}
-
-.link-red {
-    display: block;
-    transition: transform 0.2s;
-}
-.link-red img {
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-    box-shadow: 1px 2px 2px #ffffff;
-}
-
-.link-red:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-}
+ 
