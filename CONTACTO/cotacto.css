@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(rgba(163, 177, 226, 0.877), rgba(9, 173, 255, 0.323)), url(./IMAGENES-CONTACTO/fondo-contacto.jpg);
+    background-attachment: fixed;
 }
 
 h1 {

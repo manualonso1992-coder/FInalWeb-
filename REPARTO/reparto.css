@@ -1,5 +1,7 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(71, 71, 71, 0.74)), url(./IMAGENES-REPARTO/imagen-fondo-reparto.png);
+    background-attachment:fixed;
+
 
 }
 

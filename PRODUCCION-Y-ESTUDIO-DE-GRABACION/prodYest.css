@@ -1,6 +1,6 @@
 body {
-     background-image:linear-gradient(rgba(0, 0, 0, 0.548), rgba(121, 37, 5, 0.329)), url(./IMAGENES-PRODUCCION-Y-ESTUDIO-DE-GRABACION/fondo-prodYEstGrab.png);
-
+     background-image:linear-gradient(rgba(0, 0, 0, 0.76), rgba(75, 5, 121, 0.418)), url(./IMAGENES-PRODUCCION-Y-ESTUDIO-DE-GRABACION/fondo-prodYEstGrab.png);
+background-attachment:fixed;
 }
 
 main{
