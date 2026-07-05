@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(255, 177, 114, 0.514)), url(IMAGENES-CURIOSIDADES-Y-PREMIOS/fondo-curiocidades-y-premios.png);
+    background: linear-gradient(rgba(31, 40, 46, 0.568), rgba(2, 0, 0, 0.582)), url(IMAGENES-CURIOSIDADES-Y-PREMIOS/fondo-curiocidades-y-premios.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,39 +7,22 @@ body {
 }
 
 main{
-    width: auto;
-    height: auto;
+     width: 80%;
+    margin: auto;
+    text-align: left;
+    
 }
 
-h1 {
-    color: rgb(255, 255, 255); 
-    -webkit-text-stroke: 0.5px rgb(77, 209, 253);
-    font-size: 60px;
-    padding: 5px;
-    text-align: center;
-}
-
-h2 {
-    color: rgb(77, 209, 253);
-    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    padding: 5px;
-    text-align: center;
-    padding-top: 50px;
-}
 
 section {
-    color: rgb(237, 237, 237);
+    color: rgb(255, 182, 47);
     padding: 1%;
     border-right: 1px;
     margin-bottom: 3%;
 
 }
 
-span {
-    color: rgb(77, 209, 253);
-     -webkit-text-stroke: 0.5px rgb(81, 81, 81);
 
-}
 
 
 

@@ -3,13 +3,6 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    font-weight: 800; font-style: italic; text-transform: uppercase;
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    text-align: center;
-}
 
 fieldset {
     border: 3px solid #4444489a;

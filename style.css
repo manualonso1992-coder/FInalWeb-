@@ -7,7 +7,7 @@
 
  
  body {
-   background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(30, 30, 30, 0.575)), url(./IMAGENES-HOME/imagen-fondo-de-home.png);
+   background-image:linear-gradient(rgba(255, 255, 255, 0.616), rgb(30, 30, 30)), url(./IMAGENES-HOME/imagen-fondo-de-home.png);
    background-size: cover;
    background-position: bottom;
    background-repeat: no-repeat;
@@ -66,17 +66,25 @@ header {
 
  }
 
+ h1{
+    font-weight: 800; font-style: italic; text-transform: uppercase;
+    color: rgb(255, 182, 47);
+    font-size: 60px;
+    padding: 5px;
+    text-align: center;
+ }
+
  h2{
-    text-align: left;
-    font-size: 40px;
-    color:  rgba(255, 115, 0, 0.603);
-    padding: 20px;
+   color: rgb(247, 119, 0);
+   font-size: 40px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 50px;
  }
 
 
  p{
-   color: rgb(255, 255, 255);
-    border-radius: 10px;
+   color: rgb(255, 182, 47);
     padding: 5px;
     border-right: 1px;
     margin-bottom: 3%;
@@ -84,7 +92,7 @@ header {
    }
 
    span{
- color: rgba(255, 115, 0, 0.603);
+ color: rgb(255, 255, 255);
      -webkit-text-stroke: 0.5px rgba(4, 3, 4, 0.439);
 
 
