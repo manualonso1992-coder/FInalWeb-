@@ -1,7 +1,7 @@
 /*PC*/
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(71, 71, 71, 0.74)), url(./IMAGENES-REPARTO/imagen-fondo-reparto.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(71, 71, 71, 0.918)), url(./IMAGENES-REPARTO/imagen-fondo-reparto.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -75,9 +75,13 @@ h3 {
     border-radius: 0.9375rem;
     margin-top: 0.9375rem;
     margin-bottom: 0.9375rem;
-    text-align: left;
+    text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 0.0625rem 0.125rem 0.0125rem rgb(4, 4, 4);
+}
+
+.foto-nombre-perdonaje{
+    text-align: center;
 }
 
 .contenedorImagen {
@@ -93,7 +97,7 @@ h3 {
 p {
     text-shadow: 0.0625rem 0.0625rem black;
     margin-top: 0.625rem;
-    margin-left: 3.125rem;
+    margin-left: 4.125rem;
     margin-right: 1%;
     color: rgb(255, 255, 255);
     line-height: 1.6;
@@ -117,12 +121,11 @@ p {
 }
 
 .link-red img {
-    width: 2.8125rem; 
-    height: 2.8125rem; 
+     width: 1.5rem;
+    height: 1.5rem;
     object-fit: cover;
     border-radius: 0.625rem; 
     display: block;
-    box-shadow: 0.0625rem 0.125rem 0.125rem #ffffff;
 }
 
 .link-red:hover {
@@ -149,8 +152,8 @@ footer {
     #boton-abrir {
         display: block;
         position: fixed;
-        top: 1.25rem;
-        left: 1.25rem;
+        top: 0.5rem;
+        left: 0.5rem;
         z-index: 301;
         cursor: pointer;
     }
@@ -245,4 +248,16 @@ footer {
         height: 1.75rem;
         border-radius: 0.375rem;
     }
+
+    h1 {
+   font-size: 1.5rem;
+    margin-top: 2.5rem;
+    }
+    
+    img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius:20%;
+  }
 }

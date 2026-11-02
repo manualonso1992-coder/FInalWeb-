@@ -121,12 +121,11 @@ span {
 }
 
 .link-red img {
-    width: 2.8125rem;
-    height: 2.8125rem;
+     width: 1.5rem;
+    height: 1.5rem;
     object-fit: cover;
     border-radius: 0.625rem;
     display: block;
-    box-shadow: 0.0625rem 0.125rem 0.125rem #ffffff;
 }
 
 .link-red:hover {
@@ -149,8 +148,8 @@ footer {
     #boton-abrir {
         display: block;
         position: fixed;
-        top: 1.25rem;
-        left: 1.25rem;
+        top: 0.5rem;
+        left: 0.5rem;
         z-index: 301;
         cursor: pointer;
     }
@@ -233,7 +232,18 @@ footer {
         height: 1.75rem;
         border-radius: 0.375rem;
     }
+
+    h1 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    }    
+
+    h2 {
+    font-size: 1.rem;    
+
+    }
 }
+
 
 
 
