@@ -13,14 +13,36 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-             <a href="../index.html" class="btn-menu">Home</a>
-            <a href="../SOBRE-LA-PELICULA/sobrelapelicula.html" class="btn-menu">Sobre la Película</a>
-            <a href="../PRODUCCION-Y-ESTUDIO-DE-GRABACION/produccionyestudiodegrabacion.html" class="btn-menu">Prod y Est/Grab</a>
-            <a href="../CURIOSIDADES-Y-PREMIOS/curiosidadesypremios.html" class="btn-menu">Curiosidades y Premios</a>
-        </nav>
-    </header>
+    <div id="caja-menu" class="panel-celu">
+  <a href="../index.html" class="enlace-panel">Home</a>
+  <a href="../SOBRE-LA-PELICULA/sobrelapelicula.html" class="enlace-panel">Sobre la Película</a>
+  <a href="../PRODUCCION-Y-ESTUDIO-DE-GRABACION/produccionyestudiodegrabacion.html" class="enlace-panel">Prod y Est/Grab</a>
+  <a href="../CURIOSIDADES-Y-PREMIOS/curiosidadesypremios.html" class="enlace-panel">Curiosidades y Premios</a>
+</div>
+
+<header>
+ 
+  <a href="#caja-menu" id="boton-abrir">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+      <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/>
+    </svg>
+  </a>
+
+  
+  <a href="#" id="boton-cerrar">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+      <path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/>
+    </svg>
+  </a>
+
+  
+  <nav class="barra-menu">
+    <a href="../index.html" class="btn-menu">Home</a>
+    <a href="../SOBRE-LA-PELICULA/sobrelapelicula.html" class="btn-menu">Sobre la Película</a>
+    <a href="../PRODUCCION-Y-ESTUDIO-DE-GRABACION/produccionyestudiodegrabacion.html" class="btn-menu">Prod y Est/Grab</a>
+    <a href="../CURIOSIDADES-Y-PREMIOS/curiosidadesypremios.html" class="btn-menu">Curiosidades y Premios</a>
+  </nav>
+</header>
     <main>
 
         
@@ -132,17 +154,17 @@
 
 
          <footer>
-        <div class="redes">
-            <a href="https://www.instagram.com/thefastsaga" target="_blank" class="config-red">
-                <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-instagram.png" alt="Instagram">
-            </a>
-            <a href="https://www.facebook.com/TheFastSaga/" target="_blank" class="config-red">
-                <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-facebook.png" alt="Facebook">
-            </a>
-            <a href="https://x.com/TheFastSaga" target="_blank" class="config-red">
-                <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-X.png" alt="X">
-            </a>
-        </div>
+        <div class="mis-redes-derecha">
+    <a href="https://www.instagram.com/thefastsaga" target="_blank" class="link-red">
+        <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/TheFastSaga/" target="_blank" class="link-red">
+        <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-facebook.png" alt="Facebook">
+    </a>
+    <a href="https://x.com/TheFastSaga" target="_blank" class="link-red">
+        <img src="../CONTACTO/IMAGENES-CONTACTO/contacto-boton-X.png" alt="X">
+    </a>
+</div>
 
         <a href="../CONTACTO/contacto.html" class="btn-menu" target="_blank">Contacto</a>
     </footer>
