@@ -102,12 +102,11 @@ div {
 }
 
 .link-red img {
-    width: 2.8125rem;
-    height: 2.8125rem;
+    width: 1.5rem;
+    height: 1.5rem;
     object-fit: cover;
     border-radius: 0.625rem;
     display: block;
-    box-shadow: 0.0625rem 0.125rem 0.125rem #ffffff;
 }
 
 .link-red:hover {
